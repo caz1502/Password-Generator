@@ -1,6 +1,6 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
-var copyToClipBoardButton = document.getElementById("copytoclipboard");
+
 
 
 // Create Arrays of Possible Character Choices
@@ -64,7 +64,7 @@ function generatePassword() {
     }
 
     console.log(possibleCombo);
-
+// this is the function to get random entries
     for (var i = 0; i < passwordOptions.length; i++) {
         finalPassword += possibleCombo[Math.floor(Math.random() * possibleCombo.length)];
 
