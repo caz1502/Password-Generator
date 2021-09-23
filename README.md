@@ -39,7 +39,7 @@ THEN the password is either displayed in an alert or written to the page
 
 Website Image
 
-![Password Generator](./assets/images/passwordgenerator.PNG)
+![Password Generator](assets/images/passwordgenerator.PNG)
 
 Authors, Acknowledgement, & Resources 🤝
 Teaching Crew at UniSA Coding Bootcamp 🎉
