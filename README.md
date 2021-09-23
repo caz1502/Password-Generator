@@ -40,7 +40,7 @@ THEN the password is either displayed in an alert or written to the page
 
 ## Website Image
 
-![PasswordGenerator](./assets/images/passwordgenerator.PNG)    
+![PasswordGenerator](assets/images/passwordgenerator.PNG)    
 
 
 Authors, Acknowledgement, & Resources 🤝
