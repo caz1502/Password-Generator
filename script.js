@@ -15,6 +15,7 @@ function questions() {
     var isValid = false;
     do {
         var length = prompt("Choose password length between 8 and 128 characters");
+        // adding validation on legnth
         if ((length < 8) || (length > 128)) {
             alert("Choose number between 8 and 128");
             prompt("Choose password length between 8 and 128 characters")
@@ -30,7 +31,7 @@ function questions() {
             askUpperCase: askUpperCase,
             askSpecial: askSpecial
         }
-
+        // adding validation on other questions, if not true add alert if true continue
         if ((!askNumbers) && (!askLowerCase) && (!askUpperCase) && (!askSpecial))
             alert("Must choose at least one type.");
         else
@@ -39,7 +40,7 @@ function questions() {
     } while (!isValid);
     return responses;
 }
-// This function joins all the user responses and then creates the password.
+// This joins all the user responses and then creates the password.
 function generatePassword() {
     var passwordOptions = questions();
     var possibleCombo = [];
